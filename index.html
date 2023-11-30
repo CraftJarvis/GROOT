@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="DESCRIPTION META TAG">
+  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
+  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
+  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+
+  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
+  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>GROOT: Learning to Follow Instructions by Watching Gameplay Videos</title>
+  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+<body>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">GROOT: Learning to Follow Instructions by Watching Gameplay Videos</h1>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <span class="author-block">
+                <a href="https://phython96.github.io/" target="_blank">Shaofei Cai</a><sup>1,2</sup>,
+              </span>
+              <span class="author-block">
+                <a href="" target="_blank">Bowei Zhang</a><sup>3</sup>,
+              </span>
+              <span class="author-block">
+                <a href="https://zhwang4ai.github.io/" target="_blank">Zihao Wang</a><sup>1,2</sup>,
+              </span>
+              <span class="author-block">
+                <a href="https://jeasinema.github.io/" target="_blank">Xiaojian Ma</a><sup>5</sup>,
+              </span>
+              <span class="author-block">
+                <a href="https://liuanji.github.io/" target="_blank">Anji Liu</a><sup>4</sup>,
+              </span>
+              <span class="author-block">
+                <a href="" target="_blank">Yitao Liang</a><sup>1*</sup>
+              </span>
+            </div>
+
+            <div class="is-size-5 publication-authors">
+              <span class="author-block"><b>Team CraftJarvis</b></span>
+              <span class="eql-cntrb"><br><sup>1</sup>Institute for Artificial Intelligence, Peking University</span>
+              <span class="eql-cntrb"><br><sup>2</sup>School of Intelligence Science and Technology, Peking University</span>
+              <span class="eql-cntrb"><br><sup>3</sup>School of Electronics Engineering and Computer Science, Peking University</span>
+              <span class="eql-cntrb"><br><sup>4</sup>Computer Science Department, University of California, Los Angeles</span>
+              <span class="eql-cntrb"><br><sup>5</sup>Beijing Institute for General Artificial Intelligence (BIGAI)</span>
+              <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Corresponding Author</small></span>
+            </div>
+
+
+            <div class="is-size-5 publication-authors">
+              
+            </div>
+
+                  <div class="column has-text-centered">
+                    <div class="publication-links">
+                         <!-- Arxiv PDF link -->
+                      <span class="link-block">
+                        <a href="static/pdfs/GROOT-arxiv.pdf" target="_blank"
+                        class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                          <i class="fas fa-file-pdf"></i>
+                        </span>
+                        <span>Paper</span>
+                      </a>
+                    </span>
+
+                    <!-- Supplementary PDF link
+                    <span class="link-block">
+                      <a href="static/pdfs/supplementary_material.pdf" target="_blank"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="fas fa-file-pdf"></i>
+                      </span>
+                      <span>Supplementary</span>
+                    </a>
+                  </span> -->
+
+                  <!-- Github link -->
+                  <span class="link-block">
+                    <a href="https://github.com/CraftJarvis/GROOT" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span>
+
+                <!-- ArXiv abstract Link -->
+                <span class="link-block">
+                  <a href="https://arxiv.org/abs/2310.08235/" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Teaser video-->
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <video poster="" id="tree" autoplay controls muted loop height="100%">
+        <!-- Your video here -->
+        <source src="static/videos/banner_video.mp4"
+        type="video/mp4">
+      </video>
+      <h2 class="subtitle has-text-centered">
+        Our GROOT can solve open-ended tasks specified by reference videos in the open-world Minecraft. 
+      </h2>
+    </div>
+  </div>
+</section>
+<!-- End teaser video -->
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            We study the problem of building a controller that can follow open-ended instructions in open-world environments. We propose to follow reference videos as instructions, which offer expressive goal specifications while eliminating the need for expensive text-gameplay annotations. A new learning framework is derived to allow learning such instruction-following controllers from gameplay videos while producing a video instruction encoder that induces a structured goal space. We implement our agent GROOT in a simple yet effective encoder-decoder architecture based on causal transformers. We evaluate GROOT against open-world counterparts and human players on a proposed Minecraft SkillForge benchmark. The Elo ratings clearly show that GROOT is closing the human-machine gap as well as exhibiting a 70% winning rate over the best generalist agent baseline. Qualitative analysis of the induced goal space further demonstrates some interesting emergent properties, including the goal composition and complex gameplay behavior synthesis. 
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+
+<!-- Image carousel -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <h2 class="title is-3">Architecture Design</h2>
+      <img src="static/images/architecture.png" alt="MY ALT TEXT"/>
+      <h2 class="subtitle has-text-justified">
+        <br>Left: In the training stage, a video encoder (non-causal transformer) learns to extract the semantic meaning and transfer the video (state sequence) into the goal embedding space. A goal-conditioned policy (causal transformer) is learned to predict actions following the given instructions. We learn the agent using behavior cloning under a KL constraint. 
+        <br>Right: During the inference, any reference video is passed into the video encoder to generate the goal embeddings that drives the policy to interact with the environment. 
+      </h2>
+    </div>
+  </div></div>
+</section>
+<!-- End image carousel -->
+
+
+
+
+<!-- Image carousel -->
+
+<section class="section hero is-light">
+  <div class="hero-body"> <div class="container is-max-desktop">
+    <h2 class="title is-3">Experimental Results</h2>
+    <div class="container">
+      <div id="results-carousel" class="carousel results-carousel">
+       <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/exp1.png" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+          Results on Minecraft SkillForge benchmark. 
+        </h2>
+        <h2 class="subtitle has-text-justified">
+          <b>Left:</b> Tournament evaluation of GROOT assessed by human players. GROOT performs better than state-of-the-art Minecraft agent STEVE-1. A 150-score gap corresponds to a 70% probability of winning. <br>
+          <b>Middle:</b> Winning rate of GROOT v.s. other agents on specific task categories. Colors from red to blue denote a decrease in the winning rate. Apart from the human player, GROOT surpasses all other baselines. <br>
+          <b>Right:</b> Success rate on 9 representative tasks. GROOT champions process-oriented tasks,such as dig three down and fill one up and build snow golems.
+        </h2>
+      </div>
+      <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/exp2.png" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+          t-SNE visualization of the goal space. 
+        </h2>
+        <h2 class="subtitle has-text-justified">
+          Each color corresponds to a specific video category. <br>
+          <b>Left:</b> Space of randomly initialized video encoder. All the videos are entangled together. <br>
+          <b>Middle:</b> Space of GROOT trained with self-supervised learning. The videos are clustered based on their semantics. <br>
+          <b>Right:</b> Synthesized videos using concatenation manner. The concatenated videos lay on the position between the source videos. 
+        </h2>
+      </div>
+      <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/exp3.png" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+          Results on solving challenging obtain diamond task. 
+       </h2>
+       <h2 class="subtitle has-text-justified">
+        The vertical dashed lines represent the time when a certain item is first obtained. <br>
+        <b>Left:</b> GROOT first dig down to the depth of 12 and then mine horizontally to obtain diamonds with an average success rate of 16%. <br>
+        <b>Right:</b> STEVE-1 quickly dig down to the specific depth but struggle to maintain its height. 
+       </h2>
+     </div>
+
+  </div>
+</div>
+</div>
+</section>
+<!-- End image carousel -->
+
+
+
+<!-- Image carousel -->
+<section class="section hero ">
+  <div class="hero-body"> <div class="container is-max-desktop">
+
+    <h2 class="title is-3">Minecraft SkillForge Benchmark</h2>
+
+    <h2 class="subtitle has-text-justified">
+      In order to comprehensively evaluate the mastery of tasks by agents in Minecraft, we created a diverse benchmark called Minecraft SkillForge. It covers 30 tasks from 6 major categories of representative skills in Minecraft, including collect, explore, craft, tool, survive, and build.
+    </h2>
+
+    <div class="container">
+      <div id="results-carousel" class="carousel results-carousel">
+       <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/bench1.png" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+          Examples of tasks in <b>explore</b> category.
+        </h2>
+      </div>
+      <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/bench2.png" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+          Examples of tasks in <b>tool</b> category.
+        </h2>
+      </div>
+      <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/bench3.png" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+          Examples of tasks in <b>survive</b> category.
+       </h2>
+      </div>
+      <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/bench4.png" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+          Examples of tasks in <b>build</b> category.
+        </h2>
+      </div>
+      <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/bench5.png" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+          Examples of tasks in <b>collect</b> category.
+        </h2>
+      </div>
+      <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/bench6.png" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+          Examples of tasks in <b>craft</b> category.
+        </h2>
+      </div>
+  </div>
+</div>
+</div>
+</section>
+<!-- End image carousel -->
+
+
+<!-- Image carousel -->
+<section class="section hero is-light">
+  <div class="hero-body"> <div class="container is-max-desktop">
+
+    <h2 class="title is-3">The CraftJarvis Series</h2>
+
+    <div class="container">
+      <div id="results-carousel" class="carousel results-carousel">
+
+       <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/related-deps.png" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+          <a href="https://arxiv.org/abs/2302.01560/">
+            <b>Describe, Explain, Plan and Select: Interactive Planning <br> with Large Language Models Enables Open-World Multi-Task Agents</b> <br>
+          </a>
+            <b>(Team CraftJarvis)</b> <br>
+            Neurips 2023 | ICML 2023 TEACH Workshop (Best Paper Award)
+            
+        </h2>
+        <h2 class="subtitle has-text-justified">
+          DEPS is an interactive planning approach based on Large Language Models (LLMs). 
+          It helps with better error correction from the feedback during the long-haul planning, while also bringing the sense of proximity via goal Selector, a learnable module that ranks parallel sub-goals based on the estimated steps of completion and improves the original plan accordingly. 
+         </h2>
+      </div>
+      <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/related-mcu.png" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+          <a href="https://arxiv.org/abs/2310.08367/">
+            <b>MCU: A Task-centric Framework for Open-ended Agent Evaluation in Minecraft</b> <br>
+          </a>
+            <b>(Team CraftJarvis)</b> <br>
+        </h2>
+        <h2 class="subtitle has-text-justified">
+          MCU is an open-ended Minecraft agent evaluation framework that can generate infinite tasks and reveal the difficulty of tasks. In MCU, "task" is a structured data object. MCU leverages "atom tasks" as building blocks to compose complex tasks. Each task is measured with six distinct difficulty scores, which offer a multi-dimensional assessment of a task from different angles.  We also maintain a unified benchmark, namely SkillForge, which comprises representative tasks under MCU framework. Researchers can filter specific tasks with certain properties or attributes from SkillForge to test their agent. 
+         </h2>
+      </div>
+      <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/related-cvpr.png" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+          <a href="https://arxiv.org/abs/2301.10034/">
+            <b>Open-World Multi-Task Control Through <br> Goal-Aware Representation Learning and Adaptive Horizon Prediction</b> <br>
+          </a>
+          <b>(Team CraftJarvis)</b> <br>
+          CVPR 2023
+        </h2>
+        <h2 class="subtitle has-text-justified">
+          This paper studies the problem of learning goal-conditioned policies in Minecraft. It first identify two main challenges of learning such policies and then propose to combine a goal-sensitive backbone and an adaptive horizon prediction module to tackle these challenges. 
+         </h2>
+      </div>
+  </div>
+</div>
+</div>
+</section>
+<!-- End image carousel -->
+
+
+
+
+<!--BibTex citation -->
+  <section class="section hero" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>
+@misc{cai2023groot,
+    title={GROOT: Learning to Follow Instructions by Watching Gameplay Videos}, 
+    author={Shaofei Cai and Bowei Zhang and Zihao Wang and Xiaojian Ma and Anji Liu and Yitao Liang},
+    year={2023},
+    eprint={2310.08235},
+    archivePrefix={arXiv},
+    primaryClass={cs.AI}
+}
+      </code></pre>
+    </div>
+</section>
+<!--End BibTex citation -->
+
+
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            You are free to borrow the of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-EY4G0RG97V"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-EY4G0RG97V');
+</script>
+
+  </body>
+  </html>
+
+
