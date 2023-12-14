@@ -20,5 +20,5 @@ pretrained
 *.png
 .vscode
 *.mp4
-*.json
+# *.json
 multirun
