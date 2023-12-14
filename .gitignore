@@ -19,6 +19,6 @@ pretrained
 *.webm
 *.png
 .vscode
-# *.mp4
+*.mp4
 *.json
 multirun
