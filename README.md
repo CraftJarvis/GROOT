@@ -53,12 +53,12 @@ Simulator is being closed.
 ## Download Weights
 Here we provide some checkpoints for evaluation. 
 
-+ **GROOT_EFF_1x** [[1x weights A]](https://drive.google.com/file/d/1-002Q_wmp7p1LxvArKjza930L88dIkj0/view?usp=sharing) [[1x weights B]]()
++ **GROOT_EFF_1x** [[1x weights A]](https://drive.google.com/file/d/1-002Q_wmp7p1LxvArKjza930L88dIkj0/view?usp=sharing) [[1x weights B]](https://drive.google.com/file/d/1-2ufYRpmeSeUqmTZMNamSdlFJaeO8_bz/view?usp=sharing)
 + **VPT_NATIVE** [[2x model]](https://openaipublic.blob.core.windows.net/minecraft-rl/models/2x.model) [[early-game-finetuned]](https://openaipublic.blob.core.windows.net/minecraft-rl/models/bc-early-game-2x.weights)
 
 ## Run Evaluation
 
-Check the policy configs in ```jarvis/arm/configs``` and assign the right ckpt path. 
+Check the policy configs (```jarvis/arm/configs```) and assign the right checkpoint path. 
 
 ```bash
 # evaluate vanilla VPT model
