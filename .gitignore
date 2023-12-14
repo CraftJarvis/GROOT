@@ -1,0 +1,24 @@
+__pycache__
+*.mdb
+tmp
+logs/
+jarvis/stark_tech/MCP-Reborn
+*recordings
+*.log
+build 
+jarvisbase.egg-info
+*.zip
+*.err
+*.out
+records
+outputs
+*.pkl
+*.tar.gz
+database
+pretrained
+*.webm
+*.png
+.vscode
+# *.mp4
+*.json
+multirun

@@ -1,0 +1,13 @@
+close_ended: True
+seed: 19961103
+random_tp_range: 1000
+origin_resolution: [640, 360]
+resize_resolution: [128, 128]
+time_limit: 400
+fast_reset: True
+slow_reset_interval: 9
+start_time: 0
+candidate_preferred_spawn_biome: 
+  - plains
+candidate_weather: 
+  - clear

@@ -1,0 +1,8 @@
+name: vpt_native
+policy_name: vpt
+
+from:
+  model: ${oc.env:JARVISBASE_PRETRAINED}/foundation-model-2x.model
+  # weights: ${oc.env:JARVISBASE_PRETRAINED}/bc-early-game-2x.weights
+  weights: ${oc.env:JARVISBASE_PRETRAINED}/rl-from-early-game-2x.weights
+  # weights: ${oc.env:JARVISBASE_PRETRAINED}/foundation-model-2x.weights

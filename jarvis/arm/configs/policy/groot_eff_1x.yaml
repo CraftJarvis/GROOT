@@ -1,0 +1,44 @@
+name: groot_eff_1x
+policy_name: groot
+
+from:
+  model: Null
+  weights: ${oc.env:JARVISBASE_PRETRAINED}/ep_2_bc_40000.ckpt
+
+policy_kwargs: 
+  hidsize: 1024
+  timesteps: 128 # 64
+  init_norm_kwargs:
+    batch_norm: False
+    group_norm_groups: 1
+  attention_heads: 16
+  attention_mask_style: clipped_causal
+  attention_memory_size: 256 # 128
+  n_recurrence_layers: 4
+  pointwise_ratio: 4
+  pointwise_use_activation: False
+  recurrence_is_residual: True
+  use_pointwise_layer: True
+  # below are our custom configs
+  backbone_kwargs:
+    name: 'EFFICIENTNET'
+    version: 'efficientnet-b0'
+    resolution: 224
+    pooling: False
+  condition_encoder_kwargs: 
+    name: 'trajectory' 
+    num_slots: 1
+    enable_aux_encoder: False
+  action_encoder_kwargs: 
+    action_type: 'decomposed'
+  condition_fusion_kwargs: 
+    name: 'spatial_xattn'
+    num_heads: 4
+
+pi_head_kwargs: 
+  temperature: 2.0
+
+auxiliary_head_kwargs:
+  prefix_regular_head:
+    enable: False
+    weight: 0.01

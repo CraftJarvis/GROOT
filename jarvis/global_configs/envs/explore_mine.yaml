@@ -1,0 +1,33 @@
+close_ended: True
+seed: 19961103
+random_tp_range: 1000
+origin_resolution: [640, 360]
+resize_resolution: [224, 224]
+time_limit: 600
+fast_reset: True
+slow_reset_interval: 9
+start_time: 0
+candidate_preferred_spawn_biome: 
+  - deep_cave
+candidate_weather: 
+  - clear
+
+init_inventory: 
+  0: 
+    type: iron_pickaxe
+    quantity: 1
+
+custom_init_commands:
+  - /effect give @a night_vision 99999 250 true
+
+masked_actions: 
+  inventory: 0
+  hotbar.1: 0
+  hotbar.2: 0
+  hotbar.3: 0
+  hotbar.4: 0
+  hotbar.5: 0
+  hotbar.6: 0
+  hotbar.7: 0
+  hotbar.8: 0
+  hotbar.9: 0

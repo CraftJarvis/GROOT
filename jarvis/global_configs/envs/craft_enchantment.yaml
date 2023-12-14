@@ -1,0 +1,36 @@
+close_ended: True
+seed: 19961103
+random_tp_range: 1000
+origin_resolution: [640, 360]
+resize_resolution: [224, 224]
+time_limit: 400
+fast_reset: True
+slow_reset_interval: 9
+start_time: 0
+candidate_preferred_spawn_biome: 
+  - plains
+candidate_weather: 
+  - clear
+
+init_inventory: 
+  0: 
+    type: enchanting_table
+    quantity: 1
+  13: 
+    type: diamond_sword
+    quantity: 1
+  14: 
+    type: lapis_lazuli
+    quantity: 64
+  22: 
+    type: diamond_sword
+    quantity: 1
+  23: 
+    type: lapis_lazuli
+    quantity: 64
+  31: 
+    type: diamond_sword
+    quantity: 1
+  32: 
+    type: lapis_lazuli
+    quantity: 64
