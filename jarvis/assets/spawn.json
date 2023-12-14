@@ -1,0 +1,296 @@
+[
+    {
+        "seed": 19961103, 
+        "biome": "forest",
+        "player_pos": [-79, 64, -512]
+    },
+    {
+        "seed": 19961103, 
+        "biome": "forest",
+        "player_pos": [-145, 67, -495]
+    },
+    {
+        "seed": 19961103, 
+        "biome": "forest",
+        "player_pos": [-312, 69, -509]
+    },
+    {
+        "seed": 19961103, 
+        "biome": "plains",
+        "player_pos": [-373, 64, 830]
+    },
+    {
+        "seed": 19961103, 
+        "biome": "plains",
+        "player_pos": [-232, 67, 887]
+    },
+    {
+        "seed": 19961103, 
+        "biome": "plains",
+        "player_pos": [-160, 65, 900]
+    },
+
+    {
+        "seed": 19961103, 
+        "biome": "stone_shore",
+        "player_pos": [-923.5, 78, 766.5]
+    },
+    {
+        "seed": 19961103, 
+        "biome": "stone_shore",
+        "player_pos": [-999, 76, 708]
+    },
+    {
+        "seed": 19961103, 
+        "biome": "stone_shore",
+        "player_pos": [402, 79, 864]
+    },
+    {
+        "seed": 19961103,
+        "biome": "lava", 
+        "player_pos": [618, 65, 1085]
+    },
+    {
+        "seed": 19961103,
+        "biome": "deep_cave",
+        "player_pos": [541, 15, 358]
+    },
+    {
+        "seed": 19961103,
+        "biome": "deep_cave",
+        "player_pos": [638, 15, 382]
+    },
+    {
+        "seed": 19961103,
+        "biome": "deep_cave",
+        "player_pos": [737, 18, 444]
+    },
+    {
+        "seed": 19961103,
+        "biome": "village",
+        "player_pos": [-164, 69, -1493]
+    },
+    {
+        "seed": 19961103,
+        "biome": "seacoast",
+        "player_pos": [165, 63, -1011]
+    },
+    {
+        "seed": 19961103,
+        "biome": "sea",
+        "player_pos": [-784, 63, -897]
+    },
+    {
+        "seed": 19961103,
+        "biome": "in_front_of_chest_house",
+        "player_pos": [201, 66, -856]
+    },
+    {
+        "seed": 19961103,
+        "biome": "in_front_of_chest_house",
+        "player_pos": [142, 68, -883]
+    },
+
+    {
+        "seed": 7117208482782893078, 
+        "biome": "plains",
+        "player_pos": [-400, 70, 300] 
+    },
+
+
+    {
+        "seed": 12345, 
+        "biome": "plains", 
+        "player_pos": [416, 69, 810]
+    }, 
+    {
+        "seed": 12345, 
+        "biome": "plains", 
+        "player_pos": [384, 68, 791]
+    }, 
+    {
+        "seed": 12345, 
+        "biome": "plains", 
+        "player_pos": [341, 81, 823]
+    }, 
+    {
+        "seed": 12345, 
+        "biome": "plains", 
+        "player_pos": [307, 77, 877]
+    }, 
+    {
+        "seed": 12345, 
+        "biome": "plains", 
+        "player_pos": [239, 70, 823]
+    },
+    {
+        "seed": 12345, 
+        "biome": "plains", 
+        "player_pos": [167, 71, 808]
+    }, 
+    {
+        "seed": 12345, 
+        "biome": "plains", 
+        "player_pos": [146, 72, 844]
+    }, 
+    {
+        "seed": 12345, 
+        "biome": "plains", 
+        "player_pos": [64, 73, 864]
+    },
+    {
+        "seed": 12345, 
+        "biome": "plains", 
+        "player_pos": [214, 72, 741]
+    }, 
+    {
+        "seed": 12345, 
+        "biome": "forest", 
+        "player_pos": [195, 73, 812]
+    },
+    {
+        "seed": 12345, 
+        "biome": "forest", 
+        "player_pos": [387, 70, 206]
+    },
+    {
+        "seed": 12345, 
+        "biome": "forest", 
+        "player_pos": [436, 72, 327]
+    },
+    {
+        "seed": 12345, 
+        "biome": "forest", 
+        "player_pos": [495, 64, 317]
+    }, 
+    {
+        "seed": 12345, 
+        "biome": "forest", 
+        "player_pos": [536, 72, 314]
+    },
+    {
+        "seed": 12345, 
+        "biome": "forest", 
+        "player_pos": [564, 64, 239]
+    },
+    {
+        "seed": 12345, 
+        "biome": "forest", 
+        "player_pos": [614, 63, 219]
+    }, 
+    {
+        "seed": 12345, 
+        "biome": "forest", 
+        "player_pos": [657, 71, 182]
+    },
+    {
+        "seed": 12345, 
+        "biome": "forest", 
+        "player_pos": [684, 71, 131]
+    }, 
+    {
+        "seed": 12345, 
+        "biome": "forest", 
+        "player_pos": [734, 69, 150]
+    }, 
+    {
+        "seed": 12345, 
+        "biome": "stone_shore", 
+        "player_pos": [1232, 83, 1070]
+    }, 
+    {
+        "seed": 12345, 
+        "biome": "stone_shore", 
+        "player_pos": [1291, 86, 1026]
+    },
+    {
+        "seed": 12345, 
+        "biome": "stone_shore", 
+        "player_pos": [1427, 72, 1123]
+    },
+    {
+        "seed": 12345, 
+        "biome": "stone_shore", 
+        "player_pos": [1466, 83, 1125]
+    }, 
+    {
+        "seed": 12345, 
+        "biome": "stone_shore", 
+        "player_pos": [1427, 72, 1123]
+    }, 
+    {
+        "seed": 12345, 
+        "biome": "stone_shore", 
+        "player_pos": [1343, 79, 1106]
+    }, 
+    {
+        "seed": 12345, 
+        "biome": "stone_shore", 
+        "player_pos": [1202, 80, 1073]
+    },
+    {
+        "seed": 12345, 
+        "biome": "stone_shore", 
+        "player_pos": [1198, 87, 1078]
+    },
+    {
+        "seed": 12345, 
+        "biome": "stone_shore", 
+        "player_pos": [1427, 72, 1123]
+    },
+    {
+        "seed": 12345, 
+        "biome": "stone_shore", 
+        "player_pos": [1218, 75, 1116]
+    }, 
+    {
+        "seed": 12345, 
+        "biome": "cave", 
+        "player_pos": [1089, 11, 1079]
+    },
+    {
+        "seed": 12345, 
+        "biome": "cave", 
+        "player_pos": [1078, 10, 1038]
+    }, 
+    {
+        "seed": 12345, 
+        "biome": "cave", 
+        "player_pos": [1000, 27, 703]
+    }, 
+    {
+        "seed": 12345, 
+        "biome": "cave", 
+        "player_pos": [1030, 21, 699]
+    }, 
+    {
+        "seed": 12345, 
+        "biome": "cave", 
+        "player_pos": [-1, 19, -36]
+    }, 
+    {
+        "seed": 12345, 
+        "biome": "cave", 
+        "player_pos": [-42, 16, -67]
+    }, 
+    {
+        "seed": 12345, 
+        "biome": "cave", 
+        "player_pos": [4, 23, 25]
+    }, 
+    {
+        "seed": 12345, 
+        "biome": "cave", 
+        "player_pos": [-4, 21, 47]
+    }, 
+    {
+        "seed": 12345, 
+        "biome": "cave", 
+        "player_pos": [-16, 11, 15]
+    }, 
+    {
+        "seed": 12345, 
+        "biome": "cave", 
+        "player_pos": [9.3, 15, 3.3]
+    }
+]
