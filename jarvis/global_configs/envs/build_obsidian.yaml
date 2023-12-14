@@ -3,7 +3,7 @@ seed: 19961103
 random_tp_range: 1000
 origin_resolution: [640, 360]
 resize_resolution: [224, 224]
-time_limit: 400
+time_limit: 600
 fast_reset: True
 slow_reset_interval: 9
 start_time: 0
@@ -25,3 +25,6 @@ init_inventory:
   3:
     type: lava_bucket
     quantity: 1
+
+masked_actions: 
+  inventory: 0

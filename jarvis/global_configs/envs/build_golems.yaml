@@ -25,3 +25,6 @@ init_inventory:
   3:
     type: carved_pumpkin
     quantity: 64
+
+masked_actions: 
+  inventory: 0

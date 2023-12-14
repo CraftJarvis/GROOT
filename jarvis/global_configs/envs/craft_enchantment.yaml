@@ -3,7 +3,7 @@ seed: 19961103
 random_tp_range: 1000
 origin_resolution: [640, 360]
 resize_resolution: [224, 224]
-time_limit: 400
+time_limit: 600
 fast_reset: True
 slow_reset_interval: 9
 start_time: 0
@@ -34,3 +34,15 @@ init_inventory:
   32: 
     type: lapis_lazuli
     quantity: 64
+
+masked_actions: 
+  inventory: 0
+  hotbar.1: 0
+  hotbar.2: 0
+  hotbar.3: 0
+  hotbar.4: 0
+  hotbar.5: 0
+  hotbar.6: 0
+  hotbar.7: 0
+  hotbar.8: 0
+  hotbar.9: 0
