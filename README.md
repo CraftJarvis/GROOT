@@ -26,7 +26,7 @@ git clone git@github.com:CraftJarvis/GROOT.git
 pip install -e .
 ```
 
-Then, download simulator from [here](https://drive.google.com/file/d/1NV6DwBbkgaOCGrmJMj_dtJBCdrEl1oI6/view?usp=sharing) and extract it. 
+Then, download simulator from [please contact us for the compiled simulator] and extract it. 
 
 ```bash
 tar -zxvf mcp.tar.gz -C jarvis/stark_tech/
